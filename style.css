@@ -1,0 +1,91 @@
+body {
+  background-image: url("assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.parent {
+  display: grid;
+  grid-gap: 120px;
+  margin-left: 100px;
+  grid-template-columns: repeat(3, 440px);
+}
+
+.parent > div {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 50px;
+  display: grid;
+  place-items: center;
+}
+
+.header {
+  padding: 30px 0px;
+  color: white;
+  background-color: light gray;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 70px;
+  margin: 0;
+}
+
+.product-table{
+  font-size: 20px;
+  color: black;
+  padding: 10;
+  margin-left: 80px;
+  margin-bottom: 60px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+.product-table {
+  margin-left: 450px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.product-table th,
+.product-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid gray;
+}
+.product-table th {
+  background-color: white;
+}
+
+.more{
+  width: 110%;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.more-details{
+  font-size: 20px;
+
+}
+
+.futher{
+  margin-left: 360px;
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+
+
+
+
+
